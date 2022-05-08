@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .btn {
+            color: #ffffff;
+            margin: 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+
+        .btn-primary {
+            background-color: #2196f3;
+            border: 3px solid #2196f3;
+        }
+
+        .btn-primary:active {
+            background-color: #1f89e0;
+            border-color: #1f89e0;
+        }
+
+        .btn-outline-primary {
+            background-color: #ffffff;
+            color: #2196f3;
+            border: 3px solid #2196f3;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #2196f3;
+            color: #ffffff;
+        }
+
+        .btn-outline-primary:active {
+            background-color: #1f89e0;
+            border-color: #1f89e0;
+        }
+
+        .btn-secondary{
+            background-color: #f8b118;
+            color: #ffffff;
+            margin: 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            border: 3px solid #f8b118;
+            display: inline-block;
+            font-size: 12px;
+            font-family: sans-serif;
+            border-radius: 5px;
+        }
+
+        .btn-secondary:active {
+            background-color: #eba817;
+            border-color: #eba817;
+        }
+
+        .btn-dark{
+            background-color: #000000;
+            color: #ffffff;
+            margin: 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            border: 3px solid #000000;
+            display: inline-block;
+            font-size: 12px;
+            font-family: sans-serif;
+            border-radius: 5px;
+        }
+
+        .btn-dark:active {
+            background-color: #302f2f;
+            border-color: #302f2f;
+        }
+    </style>
+
+</head>
+<body>
+    <button class="btn btn-primary">Normal Button</button>
+
+    <a class="btn btn-primary" href="#">A Tag Button</a>
+
+    <button class="btn-secondary">Secondary Btn</button>
+
+    <button class="btn-dark">Dark Btn</button>
+
+    <hr>
+
+    <button class="btn btn-outline-primary">Normal Button</button>
+
+    <button class="btn btn-secondary">
+        <i class="fas fa-home"></i>
+    </button>
+
+    <button class="btn btn-outline-primary">
+        <i class="fas fa-car"></i>
+    </button>
+
+</body>
+</html>
